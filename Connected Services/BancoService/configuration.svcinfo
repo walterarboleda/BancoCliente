@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;BancoServiceSoap&quot;&gt;&lt;security mode=&quot;Transport&quot; /&gt;&lt;/Data&gt;" bindingType="basicHttpBinding" name="BancoServiceSoap" />
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;BancoServiceSoap1&quot; /&gt;" bindingType="basicHttpBinding" name="BancoServiceSoap1" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;https://localhost:44301/BancoService.asmx&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;BancoServiceSoap&quot; contract=&quot;BancoService.BancoServiceSoap&quot; name=&quot;BancoServiceSoap&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;https://localhost:44301/BancoService.asmx&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;BancoServiceSoap&quot; contract=&quot;BancoService.BancoServiceSoap&quot; name=&quot;BancoServiceSoap&quot; /&gt;" contractName="BancoService.BancoServiceSoap" name="BancoServiceSoap" />
+  </endpoints>
+</configurationSnapshot>
