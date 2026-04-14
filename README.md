@@ -1,8 +1,8 @@
-##BancoService
+# BancoService
 
-Aquí tienes el paso a paso detallado para crear el cliente en Visual Studio 2022:
+# Aquí tienes el paso a paso detallado para crear el cliente en Visual Studio 2022:
 
-1. Crear el Proyecto Cliente
+# 1. Crear el Proyecto Cliente
 Abre Visual Studio 2022.
 
 Selecciona Crear un proyecto.
@@ -13,7 +13,7 @@ Nota: Es importante elegir ".NET Framework" y no ".NET Core/6/7/8" para que la c
 
 Ponle un nombre (ej. BancoCliente) y haz clic en Crear.
 
-2. Vincular el Web Service (El paso clave)
+# 2. Vincular el Web Service (El paso clave)
 Como estamos usando un servicio .asmx antiguo, no basta con añadir una "Service Reference" común. Sigue esta ruta:
 
 En el Explorador de Soluciones, haz clic derecho sobre el nombre de tu proyecto.
@@ -31,3 +31,5 @@ Haz clic en la flecha verde (Ir). Visual Studio buscará el servicio y mostrará
 En Nombre de referencia web, cámbialo a BancoService.
 
 Haz clic en Agregar referencia.
+
+
