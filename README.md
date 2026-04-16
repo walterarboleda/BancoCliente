@@ -1,4 +1,4 @@
-# BancoService
+# BancoCliente
 
 # Aquí tienes el paso a paso detallado para crear el cliente en Visual Studio 2022:
 
